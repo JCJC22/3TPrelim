@@ -1,0 +1,286 @@
+* {
+  box-sizing: border-box;
+  padding: auto;
+  margin: 0;
+}
+body {
+  background-color: rgba(237, 245, 153, 0.534);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: rgba(87, 71, 71, 0.096);
+  width: 280px;
+  height: 420px;
+  margin: 10px;
+  border-radius: 15px;
+}
+.card h4 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.card p {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.card:hover {
+  background-color: rgb(255, 153, 0);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+.product-image {
+  height: 75%;
+  margin-bottom: 0px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+  background-position: center;
+}
+.pro-1 {
+  background-image: url(https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F74%2Fd1%2F74d10239460894e96aee800c92e707fcbe22b3b2.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]);
+}
+.pro-2 {
+  background-image: url(https://img.sonofatailor.com/images/customizer/product/sweatshirt/LightGrey_Sweatshirt_Neck_Sweatshirt_Long_Sleeve.jpg);
+}
+.pro-3 {
+  background-image: url(https://media.dior.com/couture/ecommerce/media/catalog/product/u/h/1604511905_113J699A0531_C989_E01_GH.jpg?imwidth=460);
+}
+.pro-4 {
+  background-image: url(https://media.dior.com/couture/ecommerce/media/catalog/product/C/F/1591346706_924S55AM009_X9330_E01_ZHC.jpg);
+}
+.pro-5 {
+  background-image: url(https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fe0%2F41%2Fe04119c4f25acb1eded471d8cc301e532b662caf.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_hoodiessweatshirts_sweatshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]);
+}
+.pro-6 {
+  background-image: url(https://static.hm.com.cn/media/catalog/product/cache/bef14cc7d4ee48fc0c01ab83c535ed11/a/c/ac9e97391cca7496761b18f70835ebac1e68d127.jpg);
+}
+.pro-7 {
+  background-image: url(https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fb7%2F7d%2Fb77dff142cd9e7dbecb58f6bdbed40d344b30b91.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_basics_tops_longsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]);
+}
+.pro-8 {
+  background-image: url(https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc8%2F9a%2Fc89a33af89b71a5fe0b68a49b94adb9b4547d06f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]);
+}
+.pro-9 {
+  background-image: url(https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F48%2F2a%2F482abf0cf72cb7cd41f496421b04c10719330231.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_hoodiessweatshirts_hoodies%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]);
+}
+.pro-10 {
+  background-image: url(https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fa0%2F6a%2Fa06ad21ffaa919239dfb070bad9f204254cf8cf1.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]);
+}
+.pro-11 {
+  background-image: url(https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F2b%2F17%2F2b17821d8999171ddf9541236ca44d3209a296c9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]);
+}
+.pro-12 {
+  background-image: url(https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fad%2Fad%2Fadad1a5b5f4e87ef2891b03cf127f3f46497e5f5.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_hoodiessweatshirts_hoodies%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]);
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #3e8e41;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  position: relative;
+  margin-left: 103px;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.button:active {
+  background-color: #8e3e3e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.CartContainer {
+  background-color: 237, 245, 153, 0.534;
+  border-radius: 20px;
+  box-shadow: 0px 10px 80px #00000033;
+  margin-top: 10px;
+}
+
+.Header {
+  margin: auto;
+  width: 90%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Heading {
+  font-size: 20px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  color: #000000;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+
+.Action {
+  font-size: 14px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  color: #e44c4c;
+  cursor: pointer;
+  border-bottom: 1px solid #e44c4c;
+}
+
+.Cart-Items {
+  margin: auto;
+  width: 90%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.image-box {
+  width: 15%;
+  text-align: center;
+}
+.image-box:hover{
+    background-color: rgba(255, 153, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: all 0.3s ease;
+}
+.about {
+  height: 100%;
+  width: 24%;
+}
+.title {
+  padding-top: 5px;
+  line-height: 25px;
+  font-size: 25px;
+  font-family: "Open Sans";
+  font-weight: 800;
+  color: #202020;
+}
+.subtitle {
+  line-height: 10px;
+  font-size: 18px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  color: #909090;
+  margin-top: 19px;
+}
+
+.counter {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.butt {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #3e8e41;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    position: relative;
+    margin-left: 144px;
+    margin-top: 10px;
+  }
+  
+  .butt:hover {
+    background-color: #3e8e41;
+  }
+  
+  .butt:active {
+    background-color: #8e3e3e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .btn{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #d9d9d9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	font-family: 'Open Sans';
+	font-weight: 900;
+	color: #202020;
+	cursor: pointer;
+}
+.count {
+  font-size: 20px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  color: #202020;
+}
+
+.prices {
+  height: 100%;
+  text-align: right;
+}
+.amount {
+  padding-top: 20px;
+  font-size: 26px;
+  font-family: "Open Sans";
+  font-weight: 800;
+  color: #202020;
+}
+.pad {
+  margin-top: 5px;
+}
+
+hr {
+  width: 66%;
+  float: right;
+  margin-right: 5%;
+}
+.checkout {
+  float: right;
+  margin-right: 6.5%;
+  width: 28%;
+  margin-bottom: 30px;
+}
+.total {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.Subtotal {
+  font-size: 22px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  color: #202020;
+  margin-bottom: 5px;
+}
+.items {
+  font-size: 16px;
+  font-family: "Open Sans";
+  font-weight: 500;
+  color: #909090;
+  line-height: 10px;
+}
+.total-amount {
+  font-size: 36px;
+  font-family: "Open Sans";
+  font-weight: 900;
+  color: #202020;
+}
